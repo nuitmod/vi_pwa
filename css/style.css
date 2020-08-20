@@ -10,9 +10,20 @@ body{
 }
 a{
   text-decoration: none;
-  color: #684e5b;//#FF6699;//#c3c3c3;
+  color: #FF6699;//#c3c3c3;
   margin: 0;
+}
+a:hover{
+  opacity: 0.8
 }
 p{
   margin: 12px 0;
+}
+h4{
+  text-align: center;
+}
+#header{
+  height: 12px;
+  width: 100%;
+  color: #684e5b;
 }
