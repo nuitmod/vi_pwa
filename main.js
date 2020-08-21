@@ -1,7 +1,9 @@
 $(function(){
-  $('#menu').hide()
-  $('#header').on('click', ()=>{
-    $('#menu').fadeToggle(399)
+
+  $('#menu').hide();
+
+  $('#hdr').on('click', function(){
+    $('#menu').fadeToggle(399);
   })
 
 
